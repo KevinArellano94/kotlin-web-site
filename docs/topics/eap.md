@@ -56,7 +56,7 @@ check [our instructions on how to configure your build to support this version](
                 <li>Kotlin/JVM: experimental parallel compilation of a single module, deprecation of old <code>-Xjvm-default</code> modes, new <code>@JvmDefaultWithCompatibility</code> annotation</li>
                 <li>Kotlin/Native: concurrent sweep phase in the new memory manager, support for Xcode 13 SDKs, instantiation of annotation classes, support for resolving source locations with <code>libbacktrace</code>, improved "could not build module" cinterop report, performance improvements</li>
                 <li>Multiplatform: hierarchical structure support enabled by default for all new multiplatform projects</li>
-                <li>CocoaPods Gradle plugin: customization of podspec properties, accepting the podspec version when configuring CocoaPods for Kotlin/Native, new tasks for generating a suitable podspec for XCFramework builds</li>
+                <li>CocoaPods Gradle plugin: customization of Podspec properties, accepting the Podspec version when configuring CocoaPods for Kotlin/Native, new tasks for generating a suitable podspec for XCFramework builds</li>
                 <li>Kotlin/JS: incremental compilation in the IR backend, lazy initialization of top-level properties by default, inline <code>Char</code> class, ability to use inline classes in external types, export improvements</li>
                 <li>Gradle: new flexible way of defining a Kotlin compiler execution strategy, removed <code>kotlin.parallel.tasks.in.project</code> build option, deprecated <code>kapt.use.worker.api</code> and <code>kotlin.coroutines</code> build options</li>
             </ul>
